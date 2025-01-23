@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
+- [Assignment Details](#assignment-details)
 
 ## Features
 - **Responsive Design:** Works on desktops, tablets, and mobile devices.
