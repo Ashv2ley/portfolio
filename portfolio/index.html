@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <title>Personal Portfolio</title>
+</head>
+<body>
+<div class="screen">
+    <div class="col-left">
+        <header>
+            <h1 class="name">Ashley Anyanwu</h1>
+            <h2 class="occupation">Software Engineering Student</h2>
+            <p class="intro">Join me on my journey of developing my frontend and backend skills to become a full-stack developer.</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about" class="tab active-tab" onClick="opentab('about')" id="about-tab">ABOUT</a></li>
+                <li><a href="#education" class="tab active-tab" onClick="opentab('education')" id="education-tab">EDUCATION</a></li>
+                <li><a href="#experience" class="tab" onClick="opentab('experience')" id="experience-tab">EXPERIENCE</a></li>
+                <li><a href="#projects" class="tab" onClick="opentab('projects')" id="projects-tab">PROJECTS</a></li>
+                <li><a href="#contact" class="tab" onClick="opentab('contact')" id="contact-tab">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ashley-anyanwu/" title="linkedin" class="linkedin"><div class="fa-brands fa-linkedin"></div></a>
+            <a href="https://github.com/Ashv2ley" title="github" class="github"><div class="fa-brands fa-github"></div></a>
+            <a href="mailto:ash.anyanwu@gmail.com" title="email" class="email">
+                <div class="fa-solid fa-envelope"></div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-right">
+        <div id="about" class="section">
+            <h1 class=section-title>ABOUT</h1>
+            <p>I’m currently a senior at <strong>UC Irvine</strong> majoring in <strong>Software Engineering</strong>.
+
+                During my free time, I’m usually playing basketball, thrifting, painting my nails, or working on new project ideas.
+
+                For the past 4 years, I’ve been working on strengthening my software development skills by learning new <strong>frameworks</strong>, working on <strong>projects</strong>, and staying up to date on industry trends.
+
+                Now, I want to play a direct role in building and <strong>innovating products</strong> that aid people in everyday tasks. I’m continually <strong>learning</strong> and growing to become a more intentional developer, who aims to foster a <strong>better relationship</strong> between humans and technology.</p>
+        </div>
+        <div id="education" class="section">
+            <h1 class=section-title>EDUCATION</h1>
+            <div class="experience-box">
+                <div class="experience-col-left">
+                    <p class="experience-date">2024 — 2024</p>
+                </div>
+                <div class="experience-col-right">
+                    <h2 class="experience-titles">Technical Interview Prep • CodePath</h2>
+                    <p class="experience-description">
+                        Human Computer Interaction • Computer Organization • Data Structure Implementation and
+                        Analysis • Software Testing & Quality Assurance • Programming in C/C++ • Programming in Java • Programming in
+                        Python • Principles of Operating Systems • Computer and Communication Networks • Requirements Analysis &
+                        Engineering
+                    </p>
+                </div>
+            </div>
+            <div class="experience-box">
+                <div class="experience-col-left">
+                    <p class="experience-date">2021 — PRESENT</p>
+                </div>
+                <div class="experience-col-right">
+                    <h2 class="experience-titles">Relevant Coursework • University of California, Irvine</h2>
+                    <p class="experience-description">
+                        Human Computer Interaction • Computer Organization • Data Structure Implementation and
+                        Analysis • Software Testing & Quality Assurance • Programming in C/C++ • Programming in Java • Programming in
+                        Python • Principles of Operating Systems • Computer and Communication Networks • Requirements Analysis &
+                        Engineering
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="experience" class="section">
+            <h1 class=section-title>EXPERIENCE</h1>
+            <div class="experience-box">
+                <div class="experience-col-left">
+                    <p class="experience-date">2025 — PRESENT</p>
+                </div>
+                <div class="experience-col-right">
+                    <h2 class="experience-titles">Web Developer • Vertical Flight Society @ UCI</h2>
+                    <p class="experience-description">
+                        Developing a new website to improve UX, functionality, and engagement using Figma, React, Tailwind, and JavaScript
+                    </p>
+                </div>
+            </div>
+            <div class="experience-box">
+                <div class="experience-col-left">
+                    <p class="experience-date">2024 — PRESENT</p>
+                </div>
+                <div class="experience-col-right">
+                    <h2 class="experience-titles">Treasurer • Women's Club Basketball @ UCI</h2>
+                    <p class="experience-description">
+                        Organized and led fundraisers that resulted in a 62% increase in the club’s finances, to ensure financial sustainability
+                    </p>
+                </div>
+            </div>
+            <div class="experience-box">
+                <div class="experience-col-left">
+                    <div class="experience-date">
+                        2024 — PRESENT
+                    </div>
+                </div>
+                <div class="experience-col-right">
+                    <h2 class="experience-titles">Mentor • National Society of Black Engineers @ UCI</h2>
+                    <p class="experience-description">
+                        Provided personalized guidance in academic planning and career preparedness for my mentee’s success as a cs student
+                    </p>
+                </div>
+            </div>
+            <div class="experience-box">
+                <div class="experience-col-left">
+                    <div class="experience-date">
+                        2024 — 2024
+                    </div>
+                </div>
+                <div class="experience-col-right">
+                    <h2 class="experience-titles">
+                        Software Engineering Intern • Honeywell Aerospace</h2>
+                    <p class="experience-description">
+                        Developed an automated tooltip importer using Java, Python, and SQL, applying efficient algorithms to streamline and
+                        standardize tooltip management, improve UI consistency, and decrease time-to-update on production systems.
+                </div>
+            </div>
+            <div class="experience-box">
+                <div class="experience-col-left">
+                    <div class="experience-date">
+                        2021 — 2023
+                    </div>
+                </div>
+                <div class="experience-col-right">
+                    <h2 class="experience-titles">
+                        Direct Support Professional • RoseFini Care Home</h2>
+                    <p class="experience-description">
+                        Provided necessary supports and services to individuals with intellectual
+                        and developmental disabilities living in the home. Helped with caregiving
+                        and support with activities of daily living.
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="projects" class="section">
+            <h1 class=section-title>PROJECTS</h1>
+            <div class="project-container">
+                <a class="project">
+                    <div class="project-boarder">
+                        <div class="container">
+                            <img src="assets/calc.png" alt="calulator-app-thumbnail">
+                            <div class="project-title">
+                                <p>Calculator Web App</p>
+                                <div class="fa-solid fa-square-up-right"></div>
+                            </div>
+                            <p class="project-description">Crafted with a fusion of HTML, CSS, and JavaScript,
+                                this digital marvel transforms mundane number crunching into a visually
+                                stunning and intuitively smooth operation.
+                            </p>
+                        </div>
+                        <ul>
+                            <li class="skill">HTML</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">Netlify</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project">
+                    <div class="project-boarder">
+                        <div class="container">
+                            <img src="assets/list.png" alt="todo-list-app-thumbnail">
+                            <div class="project-title">Listify <div class="fa-solid fa-square-up-right"></div></div>
+                            <p class="project-description">Crafted with the dynamic trio of ReactJS, CSS, and JavaScript,
+                                this digital assistant is not just a task manager; it's a symphony of efficiency and
+                                user-friendly design.
+                            </p>
+                        </div>
+                        <ul>
+                            <li class="skill">React</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">Vercel</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project">
+                    <div class="project-boarder">
+                        <div class="container">
+                            <img src="assets/thrit-thumbnail.png" alt="thrifteasy-app-thumbnail">
+                            <div class="project-title">ThriftEasy <div class="fa-solid fa-square-up-right"></div></div>
+                            <p class="project-description">Embark on a treasure hunt in the vast world of fashion with
+                                ThriftEasy! Powered by the dynamic quartet of MongoDB, Express,
+                                React, and Node.js, and dressed in the sleek attire of Tailwind CSS, this digital
+                                explorer revolutionizes the way you discover second-hand treasures across
+                                multiple websites.
+                            </p>
+                        </div>
+                        <ul>
+                            <li class="skill">MongoDB</li>
+                            <li class="skill">Express</li>
+                            <li class="skill">React</li>
+                            <li class="skill">Node.js</li>
+                            <li class="skill">Tailwind CSS</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <a href="assets/Resume.pdf" onclick="navigateAndDownload(event, 'destination-page.html')" download class="resume">
+            Download Full Resume <div class="fa-solid fa-arrow-right-long"></div>
+        </a>
+        <div id="contact" class="section">
+            <h1 class=section-title>CONTACT</h1>
+            <div class="contact-boxes">
+                <form name="submit-to-google-sheet">
+                    <label for="name">Name
+                        <input id="name" type="text" name="Name" placeholder="Your Name" required>
+                    </label>
+                    <label for="email">Email
+                        <input id="email" type="email" name="Email" placeholder="Your Email" required>
+                    </label>
+                    <label for="message">Message
+                        <textarea id="message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                    </label>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            Coded in <span>Visual Studio Code</span> by yours truly.
+            Built with <span>HTML</span>, <span>JavaScript</span>, and <span>CSS</span>, deployed with <span>Netlify</span>.
+        </div>
+
+    </div>
+
+    <script>
+        function navigateAndDownload(event, targetPage) {
+            event.preventDefault();
+
+            const link = document.createElement('a');
+            link.href = event.currentTarget.href;
+            link.download = "assets/Resume.pdf";
+            link.click();
+
+            window.location.href = "resume.html";
+        }
+        function setActiveTab(){
+            const {scrollTop, scrollHeight} = document.documentElement;
+            var Tabs = document.getElementsByClassName("tab");
+            if (scrollTop >= 0){
+                for (const tab of Tabs){
+                    tab.classList.remove("active-tab");
+                }
+                document.getElementById("about-tab").classList.add("active-tab")
+            }if (scrollTop >= 500) {
+                for (const tab of Tabs) {
+                    tab.classList.remove("active-tab");
+                }
+                document.getElementById("education-tab").classList.add("active-tab")
+            }if(scrollTop >= 900) {
+                for (const tab of Tabs) {
+                    tab.classList.remove("active-tab");
+                }
+                document.getElementById("experience-tab").classList.add("active-tab")
+            }if(scrollTop >= 2000) {
+                for (const tab of Tabs) {
+                    tab.classList.remove("active-tab");
+                }
+                document.getElementById("projects-tab").classList.add("active-tab")
+            }if(scrollTop >= 2600){
+                for (const tab of Tabs){
+                    tab.classList.remove("active-tab");
+                }
+                document.getElementById("contact-tab").classList.add("active-tab")
+            }
+
+        }
+        document.addEventListener('scroll', setActiveTab);
+    </script>
+
+    <script>
+        var Tabs = document.getElementsByClassName("tab");
+        function opentab(name){
+            for (const tab of Tabs){
+                tab.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7WJLkteM0HKUuoVOfWJqLWnlgkq2FszGuN67NEM3Tm33hLp-155jUTu_9S_P-pXiC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully!";
+                    setTimeout(function(){msg.innerHTML = ""}, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</div>
+
+</body>
+</html>
